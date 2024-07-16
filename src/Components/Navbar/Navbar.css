@@ -1,0 +1,44 @@
+nav{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+
+}
+.nav-logo{
+    width: 45%;
+    height: 90%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.nav-menu{
+    width: 45%;
+    height: 90%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.nav-menu li{
+    list-style: none;
+    color: white;
+    cursor: pointer;
+}
+.nav-contact{
+    height: 40px;
+    width: 150px;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
